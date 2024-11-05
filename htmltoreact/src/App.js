@@ -5,13 +5,11 @@ import Admin from "./pages/Admin";
 import Recipes from "./pages/Recipes";
 import PopularCooks from "./pages/PopularCooks";
 import Contact from "./pages/Contact";
-import Header from "./components/Header";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
@@ -20,7 +18,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="PopularCooks" element={<PopularCooks />} />
       </Routes>
-    </div>
+    </BrowserRouter>
   );
 }
 
