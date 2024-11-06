@@ -1,11 +1,13 @@
 import "./styles/styles.css";
+import "./styles/about.css";
+import "./styles/recipes.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Admin from "./pages/Admin";
 import Recipes from "./pages/Recipes";
 import PopularCooks from "./pages/PopularCooks";
 import Contact from "./pages/Contact";
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (

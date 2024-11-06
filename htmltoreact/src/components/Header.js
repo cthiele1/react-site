@@ -14,22 +14,34 @@ export default function Header() {
         <nav id="bottomh-nav" className="h-nav">
           <ul className="bold">
             <li>
-              <a href="index.html">Home</a>
+              <Link to="/About">
+                <h1>About</h1>
+              </Link>
             </li>
             <li>
-              <a href="about.html">About Us</a>
+              <Link to="/Admin">
+                <h1>Admin</h1>
+              </Link>
             </li>
             <li>
-              <a href="recipes.html">Recipes</a>
+              <Link to="/Contact">
+                <h1>Contact</h1>
+              </Link>
             </li>
             <li>
-              <a href="cooks.html">Popular Cooks</a>
+              <Link to="/Home">
+                <h1>Home</h1>
+              </Link>
             </li>
             <li>
-              <a href="contact.html">Contact Us</a>
+              <Link to="/Contact">
+                <h1>Contact</h1>
+              </Link>
             </li>
             <li>
-              <a href="admin.html">Admin Page</a>
+              <Link to="/PopularCooks">
+                <h1>Popular Cooks</h1>
+              </Link>
             </li>
           </ul>
         </nav>

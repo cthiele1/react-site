@@ -7,15 +7,14 @@ export default function Recipes() {
         <h2 id="Assignments" className="flex container">
           <div id="container">
             <section className="column">
-              <a href="#">
-                <h3>German Chocolate Cake</h3>
-                <img
-                  src="gcake.jpg"
-                  alt="Recipe 1 picture"
-                  height="200"
-                  width="200"
-                />
-              </a>
+              <h3>German Chocolate Cake</h3>
+              <img
+                src="gcake.jpg"
+                alt="Recipe 1 picture"
+                height="200"
+                width="200"
+              />
+
               <p>
                 Even though the name may indicate otherwise, the German
                 Chocolate Cake actually has Southern roots dating back to the
@@ -26,9 +25,8 @@ export default function Recipes() {
             </section>
 
             <section className="column">
-              <a href="#">
-                <h3>Southern Fried Green Tomatoes</h3>
-              </a>
+              <h3>Southern Fried Green Tomatoes</h3>
+
               <img
                 src="friedtomato.jpg"
                 alt="Recipe 2 picture"
@@ -46,9 +44,8 @@ export default function Recipes() {
             </section>
 
             <section className="column">
-              <a href="#">
-                <h3>Southern Skillet Cornbread</h3>
-              </a>
+              <h3>Southern Skillet Cornbread</h3>
+
               <img
                 src="skilletcornbread.jpg"
                 alt="Recipe 3 picture"
@@ -65,9 +62,8 @@ export default function Recipes() {
             </section>
 
             <section className="column">
-              <a href="#">
-                <h3>Tomato, Cheddar, And Bacon Pie</h3>
-              </a>
+              <h3>Tomato, Cheddar, And Bacon Pie</h3>
+
               <img
                 src="cheddarpie.jpg"
                 alt="Recipe 4 picture"
@@ -83,9 +79,8 @@ export default function Recipes() {
             </section>
 
             <section className="column">
-              <a href="#">
-                <h3>Pimento Cheese</h3>
-              </a>
+              <h3>Pimento Cheese</h3>
+
               <img
                 src="pimento.jpg"
                 alt="Recipe 5 picture"
