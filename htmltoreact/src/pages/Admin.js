@@ -1,4 +1,3 @@
-import "../styles/admin.css";
 import React, { useState } from "react";
 
 const AdminLogin = () => {

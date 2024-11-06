@@ -39,11 +39,10 @@
   font-size: 16px;
   line-height: 1.6;
   color: var(--accent-color);
-  overflow-wrap: break-word; /* Ensures long words wrap within the box */
-  word-wrap: break-word; /* Additional wrap support for very long words */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
-/* Image container */
 .image {
   width: 100%;
   border-radius: 8px;
