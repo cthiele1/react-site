@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function Recipes() {
   return (
     <main id="main-content">
@@ -8,12 +7,7 @@ export default function Recipes() {
           <div id="container">
             <section className="column">
               <h3>German Chocolate Cake</h3>
-              <img
-                src="gcake.jpg"
-                alt="Recipe 1 picture"
-                height="200"
-                width="200"
-              />
+              <img src="gcake.jpg" alt="Recipe 1 " height="200" width="200" />
 
               <p>
                 Even though the name may indicate otherwise, the German
@@ -29,7 +23,7 @@ export default function Recipes() {
 
               <img
                 src="friedtomato.jpg"
-                alt="Recipe 2 picture"
+                alt="Recipe 2"
                 height="200"
                 width="200"
               />
@@ -48,7 +42,7 @@ export default function Recipes() {
 
               <img
                 src="skilletcornbread.jpg"
-                alt="Recipe 3 picture"
+                alt="Recipe 3 "
                 height="200"
                 width="200"
               />
@@ -66,7 +60,7 @@ export default function Recipes() {
 
               <img
                 src="cheddarpie.jpg"
-                alt="Recipe 4 picture"
+                alt="Recipe 4"
                 height="200"
                 width="200"
               />
@@ -81,12 +75,7 @@ export default function Recipes() {
             <section className="column">
               <h3>Pimento Cheese</h3>
 
-              <img
-                src="pimento.jpg"
-                alt="Recipe 5 picture"
-                height="200"
-                width="200"
-              />
+              <img src="pimento.jpg" alt="Recipe 5" height="200" width="200" />
               <p>
                 Pimiento cheese is one of those recipes that proves a recipe
                 doesn't have to be complicated to be a crowd-pleaser. It comes
