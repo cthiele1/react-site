@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from "react-router-dom"; // Import Link component
+
 export default function Header() {
   return (
     <>
@@ -14,33 +17,33 @@ export default function Header() {
         <nav id="bottomh-nav" className="h-nav">
           <ul className="bold">
             <li>
-              <Link to="/About">
-                <h1>About</h1>
-              </Link>
-            </li>
-            <li>
-              <Link to="/Admin">
-                <h1>Admin</h1>
-              </Link>
-            </li>
-            <li>
-              <Link to="/Contact">
-                <h1>Contact</h1>
-              </Link>
-            </li>
-            <li>
               <Link to="/Home">
                 <h1>Home</h1>
               </Link>
             </li>
             <li>
-              <Link to="/Contact">
-                <h1>Contact</h1>
+              <Link to="/About">
+                <h1>About Us</h1>
+              </Link>
+            </li>
+            <li>
+              <Link to="/Recipes">
+                <h1>Recipes</h1>
               </Link>
             </li>
             <li>
               <Link to="/PopularCooks">
                 <h1>Popular Cooks</h1>
+              </Link>
+            </li>
+            <li>
+              <Link to="/Contact">
+                <h1>Contact Us</h1>
+              </Link>
+            </li>
+            <li>
+              <Link to="/Admin">
+                <h1>Admin Page</h1>
               </Link>
             </li>
           </ul>
