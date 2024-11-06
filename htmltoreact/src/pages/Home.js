@@ -4,7 +4,7 @@ export default function Home() {
       <div className="explore-degree">
         <div className="imgcolor">
           <div className="sidebar-image">
-            <img src="projectimage1.jpg" alt="Sidebar" />
+            <img src="/images/projectimage1.jpg" alt="Sidebar" />
           </div>
         </div>
         <div className="right-side">
@@ -66,7 +66,7 @@ export default function Home() {
         </div>
         <div className="img">
           <img
-            src="maccheese.jpeg"
+            src="/images/maccheese.jpeg"
             alt="Mac and Cheese"
             width="300"
             height="150"
@@ -81,7 +81,12 @@ export default function Home() {
           </p>
         </div>
         <div className="img">
-          <img src="pecanpie.jpeg" alt="Pecan Pie" width="300" height="150" />
+          <img
+            src="/images/pecanpie.jpeg"
+            alt="Pecan Pie"
+            width="300"
+            height="150"
+          />
           <h4>Pecan Pie</h4>
           <p>
             Pecan trees grow wild throughout much of the Southern United States,
@@ -91,7 +96,12 @@ export default function Home() {
           </p>
         </div>
         <div className="img">
-          <img src="buiscuits.jpeg" alt="Biscuits" width="300" height="150" />
+          <img
+            src="/images/buiscuits.jpeg"
+            alt="Biscuits"
+            width="300"
+            height="150"
+          />
           <h4>Biscuits</h4>
           <p>
             {" "}
@@ -103,7 +113,12 @@ export default function Home() {
         </div>
 
         <div className="take-step">
-          <img src="newsimage.jpg" alt="News " width="200" height="200" />
+          <img
+            src="/images/newsimage.jpg"
+            alt="News "
+            width="200"
+            height="200"
+          />
           <div className="step-content">
             <h2>News in the Cooking World</h2>
             <p>

@@ -7,7 +7,12 @@ export default function Recipes() {
           <div id="container">
             <section className="column">
               <h3>German Chocolate Cake</h3>
-              <img src="gcake.jpg" alt="Recipe 1 " height="200" width="200" />
+              <img
+                src="/images/gcake.jpg"
+                alt="Recipe 1 "
+                height="200"
+                width="200"
+              />
 
               <p>
                 Even though the name may indicate otherwise, the German
@@ -22,7 +27,7 @@ export default function Recipes() {
               <h3>Southern Fried Green Tomatoes</h3>
 
               <img
-                src="friedtomato.jpg"
+                src="/images/friedtomato.jpg"
                 alt="Recipe 2"
                 height="200"
                 width="200"
@@ -41,7 +46,7 @@ export default function Recipes() {
               <h3>Southern Skillet Cornbread</h3>
 
               <img
-                src="skilletcornbread.jpg"
+                src="/images/skilletcornbread.jpg"
                 alt="Recipe 3 "
                 height="200"
                 width="200"
@@ -59,7 +64,7 @@ export default function Recipes() {
               <h3>Tomato, Cheddar, And Bacon Pie</h3>
 
               <img
-                src="cheddarpie.jpg"
+                src="/images/cheddarpie.jpg"
                 alt="Recipe 4"
                 height="200"
                 width="200"
@@ -75,7 +80,12 @@ export default function Recipes() {
             <section className="column">
               <h3>Pimento Cheese</h3>
 
-              <img src="pimento.jpg" alt="Recipe 5" height="200" width="200" />
+              <img
+                src="/images/pimento.jpg"
+                alt="Recipe 5"
+                height="200"
+                width="200"
+              />
               <p>
                 Pimiento cheese is one of those recipes that proves a recipe
                 doesn't have to be complicated to be a crowd-pleaser. It comes

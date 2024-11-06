@@ -81,7 +81,7 @@ export default function About() {
           </div>
 
           <div className="image">
-            <img src="stockphoto.jpg" alt="Southern Cooking" />
+            <img src="/images/stockphoto.jpg" alt="Southern Cooking" />
           </div>
         </div>
 
