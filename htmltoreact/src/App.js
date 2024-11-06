@@ -5,6 +5,10 @@ import Admin from "./pages/Admin";
 import Recipes from "./pages/Recipes";
 import PopularCooks from "./pages/PopularCooks";
 import Contact from "./pages/Contact";
+import "./styles/about.css";
+import "./styles/admin.css";
+import "./styles/contact.css";
+import "./styles/recipes.css";
 import "./styles/styles.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
